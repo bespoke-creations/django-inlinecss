@@ -21,7 +21,7 @@ DESCRIPTION = 'A Django app useful for inlining CSS (primarily for e-mails)'
 URL = 'https://github.com/roverdotcom/django-inlinecss'
 EMAIL = 'philip@rover.com'
 AUTHOR = 'Philip Kimmey'
-REQUIRES_PYTHON = '>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <3.11'
+REQUIRES_PYTHON = '>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <3.12'
 VERSION = None
 
 # What packages are required for this module to be executed?
@@ -33,18 +33,18 @@ REQUIRED = [
 
 # What packages are required only for tests?
 TESTS = [
-    'mock==2.0.0',
-    'pytest==4.3.1',
-    'pytest-django==3.4.8',
+    'mock==5.1.0',
+    'pytest==7.4.2',
+    'pytest-django==4.5.2',
 ]
 
 # What packages are optional?
 EXTRAS = {
     'flake8': [
-        'flake8==3.6.0',
-        'flake8-isort==2.6.0',
-        'isort==4.3.4',
-        'testfixtures==6.3.0',
+        'flake8==6.1.0',
+        'flake8-isort==6.1.0',
+        'isort==5.12.0',
+        'testfixtures==7.2.0',
     ],
     'tests': TESTS,
 }
@@ -144,6 +144,7 @@ setup(
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
         'Topic :: Communications :: Email',
         'Topic :: Text Processing :: Markup :: HTML',
     ],
