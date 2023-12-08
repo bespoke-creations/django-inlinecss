@@ -34,8 +34,8 @@ REQUIRED = [
 # What packages are required only for tests?
 TESTS = [
     'mock==5.1.0',
-    'pytest==7.4.2',
-    'pytest-django==4.5.2',
+    'pytest==7.4.3',
+    'pytest-django==4.7.0',
 ]
 
 # What packages are optional?
@@ -44,7 +44,7 @@ EXTRAS = {
         'flake8==6.1.0',
         'flake8-isort==6.1.0',
         'isort==5.12.0',
-        'testfixtures==7.2.0',
+        'testfixtures==7.2.2',
     ],
     'tests': TESTS,
 }
